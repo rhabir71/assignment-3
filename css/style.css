@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background:#1E1E1E;
 }
 .text-blue-color{
     color: #289BDE;
@@ -15,4 +16,15 @@ body{
 }
 .institute-bg-color{
     background: #F4FAFD;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.7;
 }
