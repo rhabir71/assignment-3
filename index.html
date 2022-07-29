@@ -98,7 +98,7 @@
     <!-- header section end here -->
     <main>
       <!-- Course section strat here  -->
-      <section class="container my-5">
+      <section class="container my-5 py-5">
         <div class="mb-5">
           <h2 class="text-center fw-bold">Discover Our Popular <br> Courses</h2>
           <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
@@ -157,7 +157,7 @@
       </section>
 
       <!-- Explore elearning section start here -->
-      <section class="container">
+      <section class="container my-5 pb-5">
         <div class="row align-items-center institute-bg-color rounded my-5">
           <div class="col-md-6 p-0">
             <img class="w-100" src="images/working.png" alt="">
@@ -194,8 +194,37 @@
             <h2 class="text-white">Ready to join?</h2>
             <p class="text-white">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
           </div>
-          <div class="col-md-6 m-auto">
-            <button class="btn bg-white text-blue-color fw-semibold ms-5">Register Now</button>
+          <div class="col-md-6">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light text-blue-color fw-semibold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+             Register Now 
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Join With Us!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   <div>
+                    <p>Email:</p>
+                    <input type="email" placeholder="Email">
+                    <p class="mb-1 mt-2">Phone:</p>
+                    <input type="number" placeholder="Number">
+                   </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
