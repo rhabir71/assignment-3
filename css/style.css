@@ -1,0 +1,18 @@
+/* poppins google font add here */
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+</style>
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.text-blue-color{
+    color: #289BDE;
+}
+.bg-blue-color{
+    background-color: #289BDE;
+}
+.institute-bg-color{
+    background: #F4FAFD;
+}
