@@ -28,3 +28,11 @@ body{
     background-color: #000;
     opacity: 0.7;
 }
+@media only screen and (max-width: 900px) {
+    .headding-text{
+        font-size: 16px;
+    }
+    .pragrap-text{
+       display: none;
+    }
+}
